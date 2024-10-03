@@ -1,6 +1,7 @@
 <?php
-if (isset($_POST['signup-submit'])){
  require 'dbh.inc.php';
+if (isset($_POST['signup-submit'])){
+
 
  $username = $_POST['uid'];
  $email= $_POST['mail'];
